@@ -107,12 +107,6 @@ extern VENDOR_DEVICE_PATH         gTerminalTypeDeviceNode;
 #define gPciRootBridge \
   PNPID_DEVICE_PATH_NODE(0x0A03)
 
-#define gPciIsaBridge \
-  PCI_DEVICE_PATH_NODE(0, 0x1f)
-
-#define gP2PBridge \
-  PCI_DEVICE_PATH_NODE(0, 0x1e)
-
 #define gPnpPs2Keyboard \
   PNPID_DEVICE_PATH_NODE(0x0303)
 
